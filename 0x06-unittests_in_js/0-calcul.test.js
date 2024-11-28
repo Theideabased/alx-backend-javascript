@@ -22,7 +22,7 @@ describe('calculateNumber', () => {
   // Edge cases
   it('should round negative numbers correctly', () => {
     assert.strictEqual(calculateNumber(-1.4, -3.6), -5);
-    assert.strictEqual(calculateNumber(-1.5, -3.7), -6);
+    assert.strictEqual(calculateNumber(-1.5, -3.7), -5);
   });
 
   it('should return correct sum when one of the numbers is zero', () => {
