@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "chai"
+    "test": "mocha"
   },
   "dependencies": {
     "chai": "^5.1.2",
